@@ -86,14 +86,20 @@ Additional images: Downloaded from iNaturalist API with research-grade observati
 
 CLASS_NAMES = [ 'Atlantic_Spotted_Dolphin', 'Bearded_Seal', 'Beluga', 'Blue_Whale', 'Bowhead_Whale', 'Common_Dolphin', 'Dugong', 'Fin_Whale', 'Gray_Seal', 'Gray_Whale', 'Harbor_Porpoise', 'Harbor_Seal', 'Harp_Seal', 'Hooded_Seal', 'Humpback_Whale', 'Killer_Whale', 'Leopard_Seal', 'Minke_Whale', 'Narwhal', 'North_Atlantic_Right_Whale', 'Northern_Elephant_Seal', 'Pacific_White_Sided_Dolphin', 'Pantropical_Spotted_Dolphin', 'Pilot_Whale', 'Ribbon_Seal', 'Ringed_Seal', 'Ross_Seal', 'Southern_Elephant_Seal', 'Sperm_Whale', 'Spinner_Dolphin', 'Spotted_Seal', 'Weddell_Seal' ]
 
-<img width="472" height="428" alt="Screenshot 2026-02-21 115215" src="https://github.com/user-attachments/assets/39863478-61e0-45ba-aad9-97b8b9e2adc3" />
+<img width="479" height="274" alt="image" src="https://github.com/user-attachments/assets/624b4b2e-4635-4924-b372-df9578416136" />
+
 
 **MODELS TRAINED:**
 1.MLP-Multilayer perceptron
+
 2.CNN-Convolutional Neural Network
+
 3.Pretrained CNN
+
 4.RNN-Recurrent Neural Network
+
 5.LSTM-Long Short-Term Memory
+
 6.GRU-Gated Recurrent Unit 
 
 
