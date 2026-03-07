@@ -1,7 +1,4 @@
 
-
-# 🎨 Deep Learning Scaffolded Project
-
 ![Banner](https://capsule-render.vercel.app/api?type=waving\&color=0:1E3C72,100:2A5298\&height=250\&section=header\&text=Deep%20Learning%20Scaffolded%20Project\&fontSize=45\&fontColor=ffffff)
 
 
@@ -36,6 +33,7 @@ The scaffold allows developers to **experiment with deep learning models while m
 
 **PROJECT:**
 **AI-Based Marine Species Detection and Behaviour Monitoring System**
+
 **SIH HACKATHON PROBLEM STATEMENT 2025:**
 
 Embedded Intelligent Microscopy System (SIH25042/SIH25043): Development of AI-powered systems to identify and count marine organisms for biodiversity assessment.
@@ -90,6 +88,10 @@ CLASS_NAMES = [ 'Atlantic_Spotted_Dolphin', 'Bearded_Seal', 'Beluga', 'Blue_Whal
 
 
 **MODELS TRAINED:**
+
+<img width="844" height="320" alt="image" src="https://github.com/user-attachments/assets/5e0e243a-e5bb-4faa-8511-13010d09574b" />
+
+
 1.MLP-Multilayer perceptron
 
 2.CNN-Convolutional Neural Network
@@ -336,7 +338,9 @@ Future enhancements may include:
 
 # 👨‍💻 Author
 
-**Yehaa**
+**Yehaasary KM**
+
+**CB.SC.P2AIE25032**
 
 GitHub
 [https://github.com/yehaa2004](https://github.com/yehaa2004)
