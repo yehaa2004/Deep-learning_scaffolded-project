@@ -34,6 +34,67 @@ The project demonstrates a **complete deep learning workflow**, including:
 
 The scaffold allows developers to **experiment with deep learning models while maintaining clean project structure and reusable components**.
 
+**PROJECT:**
+**AI-Based Marine Species Detection and Behaviour Monitoring System**
+**SIH HACKATHON PROBLEM STATEMENT 2025:**
+
+Embedded Intelligent Microscopy System (SIH25042/SIH25043): Development of AI-powered systems to identify and count marine organisms for biodiversity assessment.
+
+Marine Carbon Sink Monitoring(SIH25048): Research and tools to manage fish populations as a crucial component of the ocean carbon sink (blue carbon).
+
+Environmental Impact Analysis(SIH250): Solutions to mitigate negative impacts on fish stocks from marine pollution, construction, and aquaculture.
+
+**Marine Animals Multimodal Dataset**
+
+A comprehensive multimodal dataset combining audio recordings and images of 32 marine species.
+
+**Dataset Summary**
+
+Total samples: 24,911
+
+Species: 32
+
+Audio files: 1,357 unique recordings
+
+Images: 581 (309 matched + 272 from iNaturalist)
+
+**Features**
+
+species (string): Species name
+
+label (int32): Numeric label (0–31)
+
+audio (Audio): Audio recording of the species
+
+image (Image): Species image
+
+image_index (int32): Image number for this species
+
+total_images (int32): Total images for this species
+
+source (string): "LLM-Vision-Marine-Animals" or "iNaturalist"
+
+
+
+**Data Sources**
+
+Audio: ardavey/marine_ocean_mammal_sound
+
+Matched images: yeyimilk/LLM-Vision-Marine-Animals
+
+Additional images: Downloaded from iNaturalist API with research-grade observations and CC-compatible licenses.
+
+CLASS_NAMES = [ 'Atlantic_Spotted_Dolphin', 'Bearded_Seal', 'Beluga', 'Blue_Whale', 'Bowhead_Whale', 'Common_Dolphin', 'Dugong', 'Fin_Whale', 'Gray_Seal', 'Gray_Whale', 'Harbor_Porpoise', 'Harbor_Seal', 'Harp_Seal', 'Hooded_Seal', 'Humpback_Whale', 'Killer_Whale', 'Leopard_Seal', 'Minke_Whale', 'Narwhal', 'North_Atlantic_Right_Whale', 'Northern_Elephant_Seal', 'Pacific_White_Sided_Dolphin', 'Pantropical_Spotted_Dolphin', 'Pilot_Whale', 'Ribbon_Seal', 'Ringed_Seal', 'Ross_Seal', 'Southern_Elephant_Seal', 'Sperm_Whale', 'Spinner_Dolphin', 'Spotted_Seal', 'Weddell_Seal' ]
+
+<img width="472" height="428" alt="Screenshot 2026-02-21 115215" src="https://github.com/user-attachments/assets/39863478-61e0-45ba-aad9-97b8b9e2adc3" />
+
+**MODELS TRAINED:**
+1.MLP-Multilayer perceptron
+2.CNN-Convolutional Neural Network
+3.Pretrained CNN
+4.RNN-Recurrent Neural Network
+5.LSTM-Long Short-Term Memory
+6.GRU-Gated Recurrent Unit 
 
 
 # 🎯 Objectives
@@ -152,42 +213,6 @@ Prediction
 
 
 
-# 🤖 Transformer Architecture Diagram
-
-```mermaid
-flowchart TD
-
-A[Input Tokens]
-
-A --> B[Embedding Layer]
-
-B --> C[Positional Encoding]
-
-C --> D[Multi Head Attention]
-
-D --> E[Feed Forward Network]
-
-E --> F[Layer Normalization]
-
-F --> G[Output Layer]
-```
-
-### Transformer Workflow
-
-```
-Input Sentence
-↓
-Token Embedding
-↓
-Positional Encoding
-↓
-Self Attention
-↓
-Feed Forward Network
-↓
-Prediction / Translation
-```
-
 
 
 # 📊 Model Performance
@@ -198,70 +223,6 @@ Prediction / Translation
 | Precision | 93%   |
 | Recall    | 94%   |
 | F1 Score  | 93.5% |
-
-
-
-# 📊 Confusion Matrix Visualization
-
-Example Python code used to generate confusion matrix.
-
-```python
-from sklearn.metrics import confusion_matrix, accuracy_score
-import seaborn as sns
-import matplotlib.pyplot as plt
-
-y_true=[0,1,0,1,1,0,0,1]
-y_pred=[0,1,0,0,1,0,1,1]
-
-cm=confusion_matrix(y_true,y_pred)
-
-sns.heatmap(cm,annot=True,cmap="Blues",fmt="d")
-
-plt.title("Confusion Matrix")
-plt.xlabel("Predicted")
-plt.ylabel("Actual")
-
-plt.show()
-
-print("Accuracy:",accuracy_score(y_true,y_pred))
-```
-
-
-
-# 📈 Training Accuracy Graph
-
-```python
-import matplotlib.pyplot as plt
-
-plt.plot(history.history['accuracy'])
-plt.plot(history.history['val_accuracy'])
-
-plt.title("Model Accuracy")
-plt.xlabel("Epoch")
-plt.ylabel("Accuracy")
-
-plt.legend(["Train","Validation"])
-
-plt.show()
-```
-
-
-
-# 📉 Training Loss Curve
-
-```python
-plt.plot(history.history['loss'])
-plt.plot(history.history['val_loss'])
-
-plt.title("Training Loss")
-
-plt.xlabel("Epoch")
-plt.ylabel("Loss")
-
-plt.legend(["Train","Validation"])
-
-plt.show()
-```
 
 
 
@@ -374,4 +335,4 @@ Future enhancements may include:
 GitHub
 [https://github.com/yehaa2004](https://github.com/yehaa2004)
 
--
+
