@@ -1,7 +1,4 @@
-
-![Banner](https://capsule-render.vercel.app/api?type=waving\&color=0:1E3C72,100:2A5298\&height=250\&section=header\&text=Deep%20Learning%20Scaffolded%20Project\&fontSize=45\&fontColor=ffffff)
-
-
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=250&section=header&text=Deep%20Learning%20Scaffolded%20Project&fontSize=45&fontColor=ffffff)
 
 # 🔥 Project Badges
 
@@ -92,19 +89,6 @@ CLASS_NAMES = [ 'Atlantic_Spotted_Dolphin', 'Bearded_Seal', 'Beluga', 'Blue_Whal
 <img width="844" height="320" alt="image" src="https://github.com/user-attachments/assets/5e0e243a-e5bb-4faa-8511-13010d09574b" />
 
 
-1.MLP-Multilayer perceptron
-
-2.CNN-Convolutional Neural Network
-
-3.Pretrained CNN
-
-4.RNN-Recurrent Neural Network
-
-5.LSTM-Long Short-Term Memory
-
-6.GRU-Gated Recurrent Unit 
-
-
 # 🎯 Objectives
 
 The goal of this project is to:
@@ -114,7 +98,6 @@ The goal of this project is to:
 * Demonstrate **best practices for ML project structure**
 * Support **deep learning frameworks like TensorFlow and PyTorch**
 * Enable **future MLOps integration**
-
 
 
 # 🧠 Deep Learning Workflow
@@ -139,26 +122,6 @@ G --> H[Prediction System]
 
 
 
-# 🚀 Neural Network Architecture
-
-```mermaid
-flowchart LR
-
-A((Input Layer)) --> B((Hidden Layer 1))
-B --> C((Hidden Layer 2))
-C --> D((Output Layer))
-
-classDef input fill:#4CAF50,color:white;
-classDef hidden fill:#2196F3,color:white;
-classDef output fill:#FF5722,color:white;
-
-class A input
-class B hidden
-class C hidden
-class D output
-```
-
-
 # 🖼 Model Pipeline Visualization
 
 ```mermaid
@@ -176,61 +139,41 @@ E --> F[Evaluation]
 
 F --> G[Deployment]
 ```
-
-
+# 🧠 MLP Architecture Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/2192791b-1ce5-4f87-ba46-2e0bc60beca6" />
 
 # 🧠 CNN Architecture Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/923a3da3-0d31-4300-bed6-572a95e90387" />
 
-```mermaid
-flowchart LR
+# 🧠 Pretrained CNN Architecture Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c6accabd-5761-4d58-be66-a14faf1012df" />
 
-A[Input Image]
+# 🧠 RNN Architecture Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b80f1632-07f0-47f4-b769-e310e3a338c1" />
 
-A --> B[Convolution Layer]
-B --> C[ReLU Activation]
+# 🧠 LSTM Architecture Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/2fc8ba28-0fd6-46ce-bc87-29df62028fd8" />
 
-C --> D[Pooling Layer]
-
-D --> E[Convolution Layer]
-E --> F[Pooling Layer]
-
-F --> G[Flatten Layer]
-
-G --> H[Fully Connected Layer]
-
-H --> I[Softmax Output]
-```
-
-### CNN Processing Pipeline
-
-```
-Image Input
-↓
-Convolution Filters
-↓
-Feature Maps
-↓
-Pooling
-↓
-Flatten
-↓
-Fully Connected Layer
-↓
-Prediction
-```
-
-
-
+# 🧠 GRU Architecture Diagram
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f8c06481-efea-4cac-95ad-8caff27fdc05" />
 
 
 # 📊 Model Performance
 
-| Metric    | Value |
-| --------- | ----- |
-| Accuracy  | 95%   |
-| Precision | 93%   |
-| Recall    | 94%   |
-| F1 Score  | 93.5% |
+Accuracy Percentage
+
+MLP- 0.7966%
+
+CNN-0.9394%
+
+PRETRAINED CNN-0.9872%
+
+RNN-0.8575%
+
+LSTM-0.9296%
+
+GRU-0.9438%
+
 
 
 
