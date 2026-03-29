@@ -157,22 +157,28 @@ F --> G[Deployment]
 # 🧠 GRU Architecture Diagram
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f8c06481-efea-4cac-95ad-8caff27fdc05" />
 
+# 🧠 GAN Architecture Diagram
+<img width="318" height="158" alt="image" src="https://github.com/user-attachments/assets/0010efcb-1c71-4095-83d2-e8b7f206e3b4" />
+
+# 🧠 AE Architecture Diagram
+<img width="600" height="329" alt="image" src="https://github.com/user-attachments/assets/fabe154a-9f10-4342-9114-497a628e23ec" />
+
+
+
+
 
 # 📊 Model Performance
 
-Accuracy Percentage
-
-MLP- 0.7966%
-
-CNN-0.9394%
-
-PRETRAINED CNN-0.9872%
-
-RNN-0.8575%
-
-LSTM-0.9296%
-
-GRU-0.9438%
+| Model          | Purpose                  | Performance             |
+| -------------- | ------------------------ | ----------------------- |
+| MLP            | Classification           | 79.66%                  |
+| CNN            | Image Classification     | 93.94%                  |
+| Pretrained CNN | Transfer Learning        | 98.72%                  |
+| RNN            | Sequence Learning        | 85.75%                  |
+| LSTM           | Temporal Modeling        | 92.96%                  |
+| GRU            | Efficient Sequence Model | 94.38%                  |
+| GAN            | Image Generation         | Qualitative (visual)    |
+| Autoencoder    | Reconstruction           | Low reconstruction loss |
 
 
 
